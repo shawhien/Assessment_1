@@ -30,12 +30,12 @@ button {
     border-width: 1px;
   }
 
-  button:hover {
-      background-color: white;
-      color: darkgray;
-      border-color: darkgray;
-  }
-  
+button:hover {
+    background-color: white;
+    color: darkgray;
+    border-color: darkgray;
+}
+
   input {
     width: 85px;
 }
