@@ -23,12 +23,17 @@ input, button {
     border-color: lightgray;
 }
 
-  button {
+button {
     width: 50px;
-    border: none;
-    border-radius: 3px;
     background-color: darkgrey;
     color: white;
+    border-width: 1px;
+  }
+
+  button:hover {
+      background-color: white;
+      color: darkgray;
+      border-color: darkgray;
   }
   
   input {
